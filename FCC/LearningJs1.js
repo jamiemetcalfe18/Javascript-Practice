@@ -37,4 +37,17 @@ a = a + 1;
 b = b + 5;
 c = c + "String!";
 
+//compound assignment with augmented addition
+
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+
+//escaping literal quotes in strings
+
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 
