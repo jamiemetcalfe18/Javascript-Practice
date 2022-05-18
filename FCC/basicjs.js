@@ -51,3 +51,9 @@ c += 7;
 
 const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 
+//concatenating strings
+const myStr = "This is the start. " + "This is the end.";
+
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+
