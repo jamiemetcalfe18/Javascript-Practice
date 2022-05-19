@@ -68,3 +68,14 @@ myStr += someAdjective;
 let lastNameLength = 0;
 const lastName = "Lovelace";
 lastNameLength = lastName.length;
+
+//bracket notation to find the first character in a string
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0];
+
+//string immuatabillity
+let myStr = "Jello World";
+
+myStr = "Hello World"; 
